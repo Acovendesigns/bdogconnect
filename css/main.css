@@ -197,6 +197,12 @@ strongbtn {
 	padding-top:10px;
 	padding-bottom:10px;
 }
+
+.pad-20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
 .pad-40 {
 	padding-top:40px;
 	padding-bottom:40px;
