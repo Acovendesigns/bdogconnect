@@ -232,6 +232,17 @@ strongbtn {
 	display:block;margin:0 auto;
 }
 
+/* ----- Products + Features ----- */
+h5 {font-size: 12pt;
+font-family: 'bariol_lightlight' sans-serif;
+line-height: 1.5em;
+ }
+h6 {font-size: 18pt;
+font-weight: 300;
+font-family: 'bariol_boldbold' sans-serif;
+line-height: 1.5em;
+ }
+
 /* Footer */
 .col-lg-7 body{	
 	font-family: 'bariol_lightlight' sans-serif;
