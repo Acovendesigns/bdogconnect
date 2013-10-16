@@ -72,6 +72,20 @@
 	-moz-transition:all 800ms;
 	transition:all 800ms;
 }
+
+/* ----- Map --------------*/
+
+.gmap3{
+    margin: 20px auto;
+    width: 100%;
+    height: 100%;
+}
+
+#hq-map{
+ height: 350px;
+ width: 600px;
+}
+
 /* ----- Type --------------*/
 
 .cta-list h2 {text-transform: uppercase;}
@@ -189,10 +203,7 @@ strongbtn {
 .contact {
 	font-size: 9pt;
 }
-.col-lg-5 {
-	padding-right:0px;
-	width:38.666667%;
-}
+
 .pad-10 {
 	padding-top:10px;
 	padding-bottom:10px;
@@ -248,7 +259,8 @@ font-weight: 300;
 font-family: 'bariol_boldbold' sans-serif;
 line-height: 1.5em;
  }
-
+.pad-tb-50 {padding: 50px 0px;}
+.pad-b-25 {padding-bottom: 25px;}
 /* Footer */
 .col-lg-7 body{	
 	font-family: 'bariol_lightlight' sans-serif;
@@ -276,7 +288,9 @@ line-height: 1.5em;
 
 /*Featured Products/Features Page*/
 
-.proto img {width:250px;}
+a.pro-btn {margin:10px 0 20px;}
+.proto  img {width:250px; display:block; margin: 0 auto;}
+.proto  img {width:250px; display:block; margin: 0 auto;}
 
 /*Featured */
 
@@ -599,6 +613,30 @@ Footer
 .container {
 max-width: 3000px;
 }
+
+.featured-about .container {
+width:96%;
+}
+
+.mar-left img {
+	margin-left: 20%;
+
+}
+
+.mar-right img {
+	margin-right: 20%;
+
+}
+
+.col-txt-2 {
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+-moz-column-gap:40px; /* Firefox */
+-webkit-column-gap:40px; /* Safari and Chrome */
+column-gap:40px;
+}
+
 }
 @media (max-width: 1200px) and (min-width: 999px) { /*Desktop*/
 
@@ -619,6 +657,30 @@ background: #C5D92D;
 .navbar img {
 	margin-top:20px;
 }
+
+.featured-about .container {
+width:96%;
+}
+
+.mar-left img {
+	margin-left: 0px;
+
+}
+
+.mar-right img {
+	margin-right: 0px;
+
+}
+
+.col-txt-2 {
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+-moz-column-gap:40px; /* Firefox */
+-webkit-column-gap:40px; /* Safari and Chrome */
+column-gap:40px;
+}
+
 }
 
 @media (min-width:600px) and (max-width:1200px) { /*Tween Tablet & Desktop*/
@@ -634,6 +696,21 @@ background: #C5D92D;
 }
 
 .cta-list a p {text-align: center;}
+
+.featured-about .container {
+width:96%;
+}
+
+.mar-left img {
+	margin-left: 0px;
+
+}
+
+.mar-right img {
+	margin-right: 0px;
+
+}
+
 
 }
 
