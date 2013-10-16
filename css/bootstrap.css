@@ -309,8 +309,7 @@ body {
 }
 
 strong {
-  font-family: 'bariol_boldbold' sans-serif;
-  font-size: 21px;
+  font-family: 'bariol_boldbold', sans-serif;
 
 }
 
@@ -524,7 +523,7 @@ h3,
 
 h4,
 .h4 {
-  
+  font-size: 18px;
 }
 
 h5,
@@ -784,7 +783,6 @@ pre code {
 .row {
   margin-right: -15px;
   margin-left: -15px;
-  margin-top: 19px;
 }
 
 .row:before,
