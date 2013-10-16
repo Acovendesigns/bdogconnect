@@ -184,6 +184,10 @@ img.desaturate:hover {
 
 
 /* ----- Misc Styles ------ */
+.gray-border {
+	background-color: #c5d92d;
+	border-bottom: 3px solid #444;
+}
 .pad30
 .cta-list a p {
 	margin-right: 20px;
@@ -214,6 +218,10 @@ strongbtn {
 	padding-bottom: 20px;
 
 }
+.pad-full-40{
+	padding:40px;
+}
+
 .pad-40 {
 	padding-top:40px;
 	padding-bottom:40px;
@@ -250,11 +258,15 @@ strongbtn {
 }
 
 /* ----- Products + Features ----- */
-h5 {font-size: 12pt;
+.white-text {
+	color:#fff;
+}
+
+h5 {font-size: 14pt;
 font-family: 'bariol_lightlight' sans-serif;
 line-height: 1.5em;
  }
-h6 {font-size: 18pt;
+h6 {font-size: 20pt;
 font-weight: 300;
 font-family: 'bariol_boldbold' sans-serif;
 line-height: 1.5em;
@@ -262,6 +274,8 @@ line-height: 1.5em;
 .pad-tb-120 {padding: 120px 0px;}
 .pad-b-50 {padding-bottom: 50px;}
 .pad-b-200 {padding-bottom: 200px;}
+.pad-60 {padding:60px;}
+.pad-b-80 {padding-bottom:80px;}
 /* Footer */
 .col-lg-7 body{	
 	font-family: 'bariol_lightlight' sans-serif;
@@ -294,8 +308,8 @@ line-height: 1.5em;
 /*Featured Products/Features Page*/
 
 a.pro-btn {margin:10px 0 20px;}
-.proto  img {width:250px; display:block; margin: 0 auto;}
-.proto  img {width:250px; display:block; margin: 0 auto;}
+.proto  img {width:300px; display:block; margin: 0 auto; margin-top: -29px}
+.proto  img {width:300px; display:block; margin: 0 auto; margin-top: -29px}
 
 /*Featured */
 
@@ -611,7 +625,7 @@ Footer
 	background: #C5D92D;
 	}
 	.full-cta-white {
-	background: #ababaa;
+	background: #FFF;
 	}
 	.cta-list a p {
 	margin-right: 0px;
@@ -627,12 +641,12 @@ width:96%;
 }
 
 .mar-left img {
-	margin-left: 20%;
+	margin-left: 10%;
 
 }
 
 .mar-right img {
-	margin-right: 20%;
+	margin-right: 10%;
 
 }
 
@@ -663,7 +677,7 @@ background: #C5D92D;
 }
 
 .full-cta-white {
-background: #ababaa;
+background: #FFF;
 }
 
 
@@ -755,7 +769,7 @@ width:96%;
 }
 
 .full-cta-white {
-	background: #ababaa;
+	background: #FFF;
 }
 
 }
@@ -800,7 +814,7 @@ margin-left: 19px;}
 	}
 
 .full-cta-white {
-	background: #ababaa;
+	background: #FFF;
 	}
 }
 
@@ -812,7 +826,7 @@ margin-left: 19px;}
 	}	
 
 .full-cta-white {
-	background: #ababaa;
+	background: #FFF;
 	}	
 
 .product img {visibility:hidden;}
@@ -887,7 +901,7 @@ background: #C5D92D;
 }
 
 .full-cta-white {
-background: #ababaa;
+background: #FFF;
 }
 
 .hide_mob {display:none;}
