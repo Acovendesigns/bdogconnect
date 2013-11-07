@@ -3,12 +3,12 @@
 		<a href="./">Home</a>
 	</li>
 	<li>
-		<a href="./about">About</a>
+		<a href="./about.php">About</a>
 	</li>
 	<li>
-		<a href="./product">Product <span>+</span> &nbsp; Features</a>
+		<a href="./product.php">Product <span>+</span> &nbsp; Features</a>
 	</li>
 	<li>
-		<a href="./contact">Contact</a>
+		<a href="./contact.php">Contact</a>
 	</li>
 </ul>
